@@ -1,6 +1,9 @@
 ## VITS-fast-fine-tuning-webui<br>
 This repo is a fork of Plachtaa's [VITS-fast-fine-tuning repo](https://github.com/Plachtaa/VITS-fast-fine-tuning). For details about the project, please refer to the original repo. 
 ## New changes
+- Supports previewing dataset
+- Supports editing dataset
+- Supports extract voicelines using subtitles file and slice audios by silence
 - Supports resume training a trained model
 - No longer requires sample audios
 - Custome characters only
