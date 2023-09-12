@@ -1,17 +1,13 @@
 import pathlib
-
-import playsound
 import srt
 import ass
 import os
 import shutil
-import ffmpeg
 import subprocess
 from datetime import timedelta
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
-from pydub.playback import play
-import simpleaudio
+
 
 def extract_clip_srt(video_path,subtitle:srt.Subtitle, output_dir=None, ext:str=None,start_delta=0.5,end_delta=0.5):
     '''
