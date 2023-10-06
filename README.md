@@ -1,5 +1,6 @@
 ## VITS-fast-fine-tuning-webui<br>
-[demo](/demo/extract_voiceline.png)
+![demo](/demo/extract_voiceline.png) <br/> 
+
 This repo is a fork of Plachtaa's [VITS-fast-fine-tuning repo](https://github.com/Plachtaa/VITS-fast-fine-tuning). For details about the project, please refer to the original repo. 
 ## New changes
 - Supports previewing dataset
