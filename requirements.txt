@@ -3,9 +3,14 @@ librosa==0.9.1
 numpy
 scipy
 tensorboard
-torch==1.12.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
-torchvision --extra-index-url https://download.pytorch.org/whl/cu116
-torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+--extra-index-url https://download.pytorch.org/whl/cu116
+torch==1.12.1+cu116 
+--extra-index-url https://download.pytorch.org/whl/cu116
+torchvision
+--extra-index-url https://download.pytorch.org/whl/cu116
+torchaudio
+--extra-index-url https://download.pytorch.org/whl/cu116
+torchtext
 unidecode
 pyopenjtalk
 jamo
